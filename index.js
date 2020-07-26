@@ -381,7 +381,7 @@ const styles = StyleSheet.create({
   searchbar_container: {
     width: "100%",
     zIndex: 1,
-    backgroundColor: "rgba(255,255,255,0.75)"
+    backgroundColor: "rgba(26, 26, 40)",
   },
   search: {
     ...Platform.select({
@@ -389,7 +389,7 @@ const styles = StyleSheet.create({
         height: 36,
         paddingLeft: 8,
         borderRadius: 10,
-        backgroundColor: "#E5E8E9"
+        backgroundColor: "rgb(36, 36, 50)",
       }
     }),
     margin: 8
@@ -404,6 +404,6 @@ const styles = StyleSheet.create({
     margin: 8,
     fontSize: 17,
     width: "100%",
-    color: "#8F8F8F"
+    color: "rgb(26, 26, 40)",
   }
 });
